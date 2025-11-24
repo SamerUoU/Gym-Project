@@ -59,7 +59,7 @@
     <div class="hero-text">
       <h1>Welcome to Ghaith Gym</h1>
       <p>All the fit none of the ness ):</p>
-      <button class="main-button">Meet our staff</button>
+
     </div>
   </div>
   <!--Main-pic-end-->
@@ -138,20 +138,7 @@
             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsum atque fugiat laborum.
               Excepturi magni .</p>
 
-            <button class="second-button">
-              <span class="span-mother">
-                <span>M</span>
-                <span>O</span>
-                <span>R</span>
-                <span>E</span>
-              </span>
-              <span class="span-mother2">
-                <span>M</span>
-                <span>O</span>
-                <span>R</span>
-                <span>E</span>
-              </span>
-            </button>
+            <button class="classes-button">See More!</button>
           </div>
         </div>
 
@@ -177,20 +164,7 @@
             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsum atque fugiat laborum.
               Excepturi magni .</p>
 
-            <button class="second-button">
-              <span class="span-mother">
-                <span>M</span>
-                <span>O</span>
-                <span>R</span>
-                <span>E</span>
-              </span>
-              <span class="span-mother2">
-                <span>M</span>
-                <span>O</span>
-                <span>R</span>
-                <span>E</span>
-              </span>
-            </button>
+            <button class="classes-button">See More!</button>
           </div>
         </div>
 
@@ -215,20 +189,7 @@
             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsum atque fugiat laborum.
               Excepturi magni .</p>
 
-            <button class="second-button">
-              <span class="span-mother">
-                <span>M</span>
-                <span>O</span>
-                <span>R</span>
-                <span>E</span>
-              </span>
-              <span class="span-mother2">
-                <span>M</span>
-                <span>O</span>
-                <span>R</span>
-                <span>E</span>
-              </span>
-            </button>
+            <button class="classes-button">See More!</button>
           </div>
         </div>
       </div>
@@ -469,8 +430,18 @@
       <p>Copyright by @GhaithGym 2025</p>
     </footer>
   </div>
-
   <!--Footer End-->
+
+  <!--Back to top Start-->
+  <div id="main-container">
+    <a href="#">
+      <div id="to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </div>
+    </a>
+  </div>
+  <!--Back to top End-->
+
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -482,6 +453,16 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/02be2ac262.js" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener('scroll', () => {
+      const toTopButton = document.querySelector('#to-top');
+      if (window.scrollY > 200) {
+        toTopButton.classList.add('show');
+      } else {
+        toTopButton.classList.remove('show');
+      }
+    });
+  </script>
 </body>
 
 </html>

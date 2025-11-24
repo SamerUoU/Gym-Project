@@ -329,80 +329,148 @@
 
   <!--Contact Us-->
 
-  <section>
-    <div class="section-head">
-      <div class="container">
-        <h1>Contact Us</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ut alias laborum facere odio quos dignissimos
-          tenetur! Corporis, fugit mollitia. Expedita accusantium suscipit quisquam quae deleniti voluptatum esse
-          aliquid ipsam?</p>
+  <section class="contact-section">
+    <div class="contact-container">
+      <!-- Header -->
+      <div class="contact-header">
+        <span class="contact-label">Get In Touch</span>
+        <h1 class="contact-title">Contact Us</h1>
+        <p class="contact-subtitle">Have questions? We'd love to hear from you. Send us a message and we'll respond as
+          soon as possible.</p>
       </div>
-    </div>
-    <div class="contact-us">
-      <div class="container">
-        <div class="row">
-          <div class="contact-info">
-            <div class="contact-info-item">
-              <div class="contact-info-icon">
-                <i class="fas fa-home"></i>
-              </div>
-              <div class="contact-info-content">
-                <h4>Address</h4>
-                <p>4671 Sugar Camp Road, <br>
-                  Owatonna, Minnesota,<br>55060</p>
-              </div>
-            </div>
 
-            <div class="contact-info-item">
-              <div class="contact-info-icon">
-                <i class="fas fa-phone"></i>
-              </div>
-              <div class="contact-info-content">
-                <h4>Phone</h4>
-                <p>561-456-2131</p>
-              </div>
+      <!-- Form and Map Grid -->
+      <div class="contact-grid">
+        <!-- Contact Form -->
+        <div class="form-card">
+          <h2 class="form-title">Send Us a Message</h2>
+          <p class="form-description">Fill out the form below and we'll get back to you within 24 hours</p>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-input" placeholder="Your Name" required>
             </div>
-            <div class="contact-info-item">
-              <div class="contact-info-icon">
-                <i class="fas fa-envelope"></i>
-              </div>
-              <div class="contact-info-content">
-                <h4>Email</h4>
-                <p>example@mail.com</p>
-              </div>
+            <div class="form-group">
+              <input type="email" class="form-input" placeholder="Your Email" required>
             </div>
-          </div>
-          <div class="contact-form">
-            <form id="contact-form">
-              <h2>Send Message</h2>
-              <div class="input-box">
-                <input type="text" required="true">
-                <span>Full Name</span>
-              </div>
-              <div class="input-box">
-                <div class="input-box">
-                  <input type="email" required="true">
-                  <span>Email</span>
-                </div>
-                <div class="input-box">
-                  <textarea required="true">
-                </textarea>
-                  <span>
-                    Say whats on your mind..
-                  </span>
-                </div>
-                <div class="input-box">
-                  <input type="submit" value="Send">
-                </div>
-              </div>
-            </form>
+            <div class="form-group">
+              <input type="text" class="form-input" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <textarea class="form-textarea" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Map -->
+        <div class="map-card">
+          <div class="map-wrapper">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.951144238797!2d44.441081000000004!3d33.32116190000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15578300301441f7%3A0x4369360301b427b6!2sGhaith%20Gym%20Group%20-%20Zayona!5e1!3m2!1sen!2siq!4v1763970456506!5m2!1sen!2siq"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
           </div>
         </div>
       </div>
+
+      <!-- Contact Info Cards -->
+      <div class="contact-info-grid">
+        <div class="info-card">
+          <i class="fa-solid fa-location-dot info-icon"></i>
+          <div class="info-content">
+            <h3 class="info-title">Location</h3>
+            <p class="info-text">Zayona, Baghdad, Iraq</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <i class="fa-solid fa-envelope info-icon"></i>
+          <div class="info-content">
+            <h3 class="info-title">Email</h3>
+            <p class="info-text">Bigmenlvr@grinder.com</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <i class="fa-solid fa-phone info-icon"></i>
+          <div class="info-content">
+            <h3 class="info-title">Phone</h3>
+            <p class="info-text">0778549863</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
+  <!--Contact Us-->
+
+  <!--Footer Start-->
+
+  <div class="footer">
+    <div class="header">
+      <h2>Ghaith Gym</h2>
+    </div>
+    <div class="footer-content">
+
+      <div>
+        <h2>services</h2>
+        <p>
+          <a href="#">Equipment</a>
+        </p>
+        <p>
+          <a href="#">Cardio</a>
+        </p>
+        <p>
+          <a href="#">Healthy Food</a>
+        </p>
+      </div>
+
+      <div>
+        <h2>Social Links</h2>
+        <p>
+          <a href="#">Instagram</a>
+        </p>
+        <p>
+          <a href="#">Facebook</a>
+        </p>
+        <p>
+          <a href="#">Twitter</a>
+        </p>
+      </div>
+
+      <div>
+        <h2>Quick Links</h2>
+        <p>
+          <a href="#">Home</a>
+        </p>
+        <p>
+          <a href="#">About Us</a>
+        </p>
+        <p>
+          <a href="#">Contact</a>
+        </p>
+      </div>
+
+      <div>
+        <h2>Address</h2>
+        <p>
+          Baghdad, Iraq
+        </p>
+        <p>
+          0788549863
+        </p>
+        <p>
+          Bigmenlvr@grinder.com
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <hr />
+      <p>Copyright by @GhaithGym 2025</p>
+    </footer>
   </div>
 
-  <!--Contact Us-->
+  <!--Footer End-->
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
